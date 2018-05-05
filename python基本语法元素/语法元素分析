@@ -1,0 +1,23 @@
+1、程序格式框架
+    缩进：一行代码开始前的空白区域，表达程序的格式框架
+        严格明确：缩进是语法的一部分，缩进不正确程序运行错误
+        所属关系：表达代码间包含和层次关系的唯一手段
+        长度一直：程序内一致即可，一般用4个空格或1个TAB
+    注释：不被程序执行的辅助性说明文字
+        单行注释：以 # 开头，其后内容为注释
+        多行注释：以 ''' 开头和结尾
+    变量：用来保存和表达数据的占位符号
+        变量采用标识符（名字）来表示，关联标识符的过程叫命名
+        可使用 = 向变量赋值或修改值
+    命名：关联标识符的过程
+        命名规则：大小写字母、数字、下环线和汉字等字符及组合
+        注意事项：大小写敏感、首字符不能是数字、不与保留字相同
+    保留字：被编程语言内部定义并保留使用的标识符
+        Python语言有33个保留字：if elif
+        保留字是编程语言的基本单词，大小写敏感：if 是保留字 If是变量
+        保留字:
+            and     as          assert      break   class   continue    def
+            elif    else        except      finally for     from        if
+            import  in          is          lambda  not     or          pass
+            raise   return      try         while   with    yield       del
+            global  nonlocal    True        False   None
