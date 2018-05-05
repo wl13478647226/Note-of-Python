@@ -1,2 +1,2 @@
 # Note-of-Python
-learning note of python
+This is some study notes of python, I will record some of my learning experience.
