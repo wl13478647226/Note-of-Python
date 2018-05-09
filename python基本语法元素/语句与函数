@@ -20,3 +20,6 @@
 5、range()函数：产生序列
     range(N):从 0 到 N-1
     range(M,N):从 M 到 N-1
+6、def:定义函数
+    def dayUp(df):
+        ...
