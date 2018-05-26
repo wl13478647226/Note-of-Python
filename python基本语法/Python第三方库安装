@@ -1,0 +1,28 @@
+1、Python社区
+    13万个第三方库 https://pypi.org/
+    PyPI: Python Package Index
+    PSF维护的展示全球Python计算生态的主站
+    学会检索并利用PyPI，找到合适的第三方库开发程序
+2、安装方法：
+    pip安装方法：主要方法，需要联网安装
+        pip –h                      帮助信息
+        pip install <第三方库名>     安装第三方库
+        pip install –U <第三方库名>  更新库
+        pip uninstall <第三方库名>   卸载库
+        pip download <第三方库名>    下载但不安装
+        pip show <第三方库名>        列出库的详细信息
+        pip search <关键词>          根据关键词在名称和介绍中搜索第三方库
+        pip list                    列出当前系统已经安装的第三方库
+    集成安装：结合特定Python开发工具的批量安装
+        Anaconda：https://www.continuum.io/
+            支持近800个第三方库
+            包含多个主流工具
+            适合数据计算领域开发
+    文件安装方法：
+        某些第三方库pip下载后，需要编译再安装
+        如果操作系统没有编译环境，则能下载但不能安装
+        可以直接下载编译后的版本用于安装
+            http://www.lfd.uci.edu/~gohlke/pythonlibs/
+            步骤1：在UCI页面上搜索wordcloud
+            步骤2：下载对应版本的文件
+            步骤3：使用pip install <文件名>安装
